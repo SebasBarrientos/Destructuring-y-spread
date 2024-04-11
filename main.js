@@ -7,6 +7,11 @@ const empleados = [
 const [, Ana] = empleados;
 console.log(Ana);
 
+const [Luis] = empleados
+const {email} = Luis
+console.log(email);
+ 
+
 // Cambia el nombre de la propiedad “name” por “nombre
 // Extrae el nombre del Pokemon
 // Extrae el tipo de Pokemon que es
